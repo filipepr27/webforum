@@ -1,0 +1,114 @@
+body {
+  margin-top: 20px;
+  background: #eee;
+  /* Remover ou ajustar o overflow */
+  overflow-x: hidden;
+  /* Isso evita o scroll horizontal, mantendo o vertical */
+}
+
+.panel-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.message-wrapper {
+  padding: 0px;
+  background-color: #ffffff;
+}
+
+.message-sideleft {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.message-sideright {
+  background-color: #f8f8f8;
+  padding: 30px;
+  overflow-y: auto;
+  max-height: 80vh;
+  min-height: 70vh;
+}
+
+.panel {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.list-message {
+  max-height: 70vh;
+  min-height: 70vh;
+  overflow-y: auto;
+}
+
+.list-message .list-group-item {
+  padding: 15px;
+  color: #999;
+  border-right: 3px solid #8cc152;
+}
+
+.list-group-item-text {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 20ch;
+}
+
+.list-message .list-group-item.active {
+  background-color: #eee;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.panel-heading .media {
+  display: flex;
+  align-items: center;
+}
+
+.panel-body {
+  padding-top: 20px;
+  word-wrap: break-word;
+}
+
+.list-group-item-heading {
+  color: #333;
+}
+
+.img-ajustada {
+  max-width: 30%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.head-msg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-button {
+  text-decoration: none;
+  font-size: 24px;
+  color: #e74c3c;
+}
+
+.img-profile {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+.img-background {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin: 1px red solid;
+}
